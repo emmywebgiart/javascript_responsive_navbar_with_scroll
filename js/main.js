@@ -6,6 +6,6 @@ const classAnimations = ["rotate1", "scale2", "rotate3"];
 menuButton.onclick = () => {
     menuNav.classList.toggle("active_nav");
     buttonsLine.forEach((item, index) => {
-        item.classList.toggle(classAnimations[index])
-    });
+        item.classList.toggle(classAnimations[index]);
+    })
 }
